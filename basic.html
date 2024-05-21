@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Float</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .box {
+        float: left;
+        width: 33.33%;
+        /* padding: 50px; */
+        /* padding: 500px; */
+        padding: 100px;
+        height: 500px;
+      }
+
+      .clearfix::after {
+        content: '';
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Grid of Boxes</h2>
+    <p>Float boxes side by side:</p>
+
+    <div class="clearfix">
+      <div class="box" style="background-color: #bbb">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+          tenetur amet aspernatur illum itaque ad ipsam sint dolorem quisquam
+          error quis magni minus pariatur rerum aliquid nihil maxime
+          voluptatibus atque. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Exercitationem eaque possimus quasi iusto. Aut totam, saepe
+          molestias magnam necessitatibus, possimus reprehenderit sint
+          dignissimos doloribus dolor odio facilis rem at vitae. Lorem ipsum
+          dolor sit amet consectetur, adipisicing elit. Omnis culpa earum odio.
+          Asperiores nulla nam, ratione, voluptate error reprehenderit tempore
+          tenetur pariatur et iste similique culpa saepe, perspiciatis a vel.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut nisi
+          laudantium dolores consequatur dolore ex, odit tenetur architecto!
+          Voluptate nesciunt maxime debitis voluptatibus atque sunt quibusdam,
+          animi nam sed? Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Id itaque voluptas dolor sunt, enim corporis ut perferendis
+          accusantium animi labore sapiente necessitatibus natus provident ipsum
+          ea molestias, aliquid eveniet dolores! Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Aut culpa eos illum reiciendis ad
+          obcaecati mollitia voluptates libero, hic qui nisi dolor porro
+          aspernatur, beatae voluptatibus maxime ea error impedit!
+        </p>
+      </div>
+      <div class="box" style="background-color: #ccc">
+        <p>Some text inside the box.</p>
+      </div>
+      <div class="box" style="background-color: #ddd">
+        <p>Some text inside the box.</p>
+      </div>
+    </div>
+  </body>
+</html>
